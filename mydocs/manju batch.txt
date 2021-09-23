@@ -1,0 +1,6 @@
+Set Source_list=
+set file=*940*
+Set Dest_list=E:\IXPROCESS\swiftPSCP\Log\CorpSFTP940
+F:\Frontier\Security -i E:\IXPROCESS\swiftPSCP\emGWIXprivate.ppk -C -batch -q webcash_prod@sftp.corporate.ge.com:%Source_list%%file%  %Dest_list%\
+
+get myfile.dat newname.dat
